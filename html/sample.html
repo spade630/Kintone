@@ -1,0 +1,82 @@
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/foundation/5.5.1/css/normalize.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/foundation/5.5.1/css/foundation.min.css" />
+
+<style type="text/css">
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: content-box;
+}
+
+#kintone-custom-view *,
+#kintone-custom-view *:before,
+#kintone-custom-view *:after {
+  box-sizing: border-box;
+}
+
+#kintone-custom-view {
+  margin-top: 0.625rem;
+}
+
+button, .button {
+  padding-top: 0rem;
+  padding-right: 0rem;
+  padding-bottom: 0rem;
+  padding-left: 0rem;
+}
+
+#kintone-custom-view button,
+#kintone-custom-view .button {
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-bottom: 1.0625rem;
+  padding-left: 2rem;
+}
+
+ul {
+  margin-left: 0rem;
+}
+
+#kintone-custom-view ul {
+  margin-left: 1.1rem;
+}
+
+ul,
+ol,
+dl {
+  margin-bottom: 0rem;
+}
+
+#kintone-custom-view ul,
+#kintone-custom-view ol,
+#kintone-custom-view dl {
+  margin-bottom: 1.25rem;
+}
+
+p {
+  margin-left: 0rem;
+}
+
+#kintone-custom-view p {
+  margin-left: 1.20rem;
+}
+</style>
+
+<div id="kintone-custom-view" name="kintone-custom-view">
+  <div class="row">
+    <div class="large-12 columns">
+      <h1>ブログ</h1>
+      <hr />
+    </div>
+  </div>
+
+  <div class="row">
+    <div id="contents" name="contents" class="large-12 columns" role="content">
+    </div>
+  </div>
+  <script>
+    $(document).foundation();
+  </script>
+</div>
